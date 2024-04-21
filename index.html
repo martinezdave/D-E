@@ -316,44 +316,41 @@
             </div>
 
             </div>
-        <div class="contact-form">
-  <form action="https://api.web3forms.com/submit" method="POST" id="CL" name="CL" class="mb-0">
-    <div class="form-row">
-      <div class="form-process"></div>
+           <div class="contact-form">
+              <form class="mb-0" id="cf" name="cf" action="https://preview.erilisdesign.com/html/personite/include/sendemail.php" method="post" autocomplete="off">
+                <div class="form-row">
 
-      <div class="col-md-6">
-        <div class="form-group">
-          <input type="text" id="CL-name" name="CL-name" placeholder="Enter your name" class="form-control form-control-soft-light bg-soft-dark" required>
-        </div>
-      </div>
+                  <div class="form-process"></div>
 
-      <input type="hidden" name="access_key" value="9dc5af3a-ba13-4ab0-8b46-fbfb6b689417">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control form-control-soft-light bg-soft-dark required">
+                    </div>
+                  </div>
 
-      <div class="col-md-6">
-        <div class="form-group">
-          <input type="email" id="CL-email" name="CL-email" placeholder="Enter your email address" class="form-control form-control-soft-light bg-soft-dark" required>
-        </div>
-      </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control form-control-soft-light bg-soft-dark required">
+                    </div>
+                  </div>
 
-      <div class="col-12">
-        <div class="form-group">
-          <input type="text" id="CL-subject" name="CL-subject" placeholder="Subject (Optional)" class="form-control form-control-soft-light bg-soft-dark">
-        </div>
-      </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control form-control-soft-light bg-soft-dark">
+                    </div>
+                  </div>
 
-      <div class="col-12 mb-4">
-        <div class="form-group">
-          <textarea name="CL-message" id="CL-message" placeholder="Message" class="form-control form-control-soft-light bg-soft-dark" rows="7" required></textarea>
-        </div>
-      </div>
+                  <div class="col-12 mb-4">
+                    <div class="form-group">
+                      <textarea name="cf-message" id="cf-message" placeholder="Message" class="form-control form-control-soft-light bg-soft-dark required" rows="7"></textarea>
+                    </div>
+                  </div>
 
-      <div class="col-12 text-center text-lg-left">
-        <button class="btn btn-dark" type="submit" id="CL-submit" name="CL-submit" style="background-color: #40f16d;">Send Message</button>
-      </div>
+                  <div class="col-12 d-none">
+                    <input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control form-control-soft-light bg-soft-dark" />
+                  </div>
 
-    </div>
-  </form>
-    <div class="col-12 text-center text-lg-left">
+                  <div class="col-12 text-center text-lg-left">
                     <button class="btn btn-dark" type="submit" id="cf-submit" name="cf-submit" style="background-color: 40f16d;">Send Message</button>
                   </div>
 
