@@ -333,39 +333,44 @@
             </div>
 
             </div>
-    <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control form-control-soft-light bg-soft-dark" required>
-                            </div>
+   <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST" id="cf" name="cf" class="mb-0">
+                    <div class="form-row align-items-center">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" id="cf-name" name="cf-name" placeholder="Your name" class="form-control form-control-sm form-control-soft-light bg-soft-dark" required>
                         </div>
 
                         <input type="hidden" name="access_key" value="9dc5af3a-ba13-4ab0-8b46-fbfb6b689417">
 
-                        <div class="col-md-10">
-                            <div class="form-group">
-                                <input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control form-control-soft-light bg-soft-dark" required>
-                            </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" id="cf-email" name="cf-email" placeholder="Your email address" class="form-control form-control-sm form-control-soft-light bg-soft-dark" required>
                         </div>
 
-                        <div class="col-15">
-                            <div class="form-group">
-                                <input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control form-control-soft-light bg-soft-dark">
-                            </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control form-control-sm form-control-soft-light bg-soft-dark">
                         </div>
 
-                        <div class="col-15 mb-5">
-                            <div class="form-group">
-                                <textarea name="cf-message" id="cf-message" placeholder="Message" class="form-control form-control-soft-light bg-soft-dark" rows="7" required></textarea>
-                            </div>
+                        <div class="col-md-6 mb-3">
+                            <textarea name="cf-message" id="cf-message" placeholder="Message" class="form-control form-control-sm form-control-soft-light bg-soft-dark" rows="5" required></textarea>
                         </div>
 
-                        <div class="col-15 d-none">
-                            <input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control form-control-soft-light bg-soft-dark">
+                        <div class="col-md-6 mb-3 d-none">
+                            <input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control form-control-sm form-control-soft-light bg-soft-dark">
                         </div>
 
-                        <div class="col-15 text-center text-lg-left">
+                        <div class="col-md-6 mb-3 text-center text-lg-left">
                             <button class="btn btn-dark" type="submit" id="cf-submit" name="cf-submit" style="background-color: #40f16d;">Send Message</button>
-                        </div>  </div>  </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="contact-form-result text-center"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     </section>
